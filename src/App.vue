@@ -34,26 +34,72 @@ import HelloWorld from './components/HelloWorld.vue'
 </nav>
   </header>
   <body>
+    <RouterView />
+    <div class="container-fluid" style="background-color: #602eaf;color: white;">
+  <footer class="py-5 p-5">
+    <div class="row ">
+      <h5 class="mb-4">Useful links</h5>
+      
+      <div class="col-6 col-md-2 mb-3">
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0">.  Privacy Policy</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">.  Tutor Signup</a></li>
+      
+        </ul>
+      </div>
 
-      <div class="tu-login-left">
-                <strong>
-                    <a href="index-2.html"><img src="https://ecomett.com.au/assetsWeb/images/login/logo_white.png" alt="images"></a>
-                </strong>
-                <figure>
-                    <img src="https://ecomett.com.au/assetsWeb/images/login/img-01.png" alt="images">
-                </figure>
-                <div class="tu-login-left_title">
-                    <h2>Yes! we’re making progress</h2>
-                    <span>every minute &amp; every second</span>
-                </div>
-            </div>
+      <div class="col-6 col-md-2 mb-3">
+     
+        <ul class="nav flex-column ">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">.  Top FAQ</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">.  Tutor Login</a></li>
+          
+        </ul>
+      </div>
 
-    <div class="col-6">
-  
+      <div class="col-6 col-md-2 mb-3">
+    
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">.  Legal Policies</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">.  Student Signup</a></li>
+         
+        </ul>
+      </div>
+      <div class="col-6 col-md-2 mb-3">
+    
+    <ul class="nav flex-column">
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">.  TERMS OF USE</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">.  Student login</a></li>
+     
+    </ul>
+  </div>
+      <div class="col-md-3 offset-md-1 mb-3">
+        <form>
+          <h5>Signup for newsletter</h5>
+          <p>Corrupti quolores etmquasa molestias epturite sinteam occaecati amet cupiditate mikume molareshe.</p>
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Email address</label>
+            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-outline-secondary" type="button"><i class="fa-regular fa-paper-plane"></i></button>
+          </div>
+        </form>
+      </div>
+
     </div>
+     <div class="d-flex flex-column flex-sm-row justify-content-between  mt-5">
+      <p>© 2022 - 2023 All Rights Reserved.</p>
+      <ul class="list-unstyled d-flex">
+        <li class="ms-3"><a class="nav-link" href="#">Privacy Policy</a></li>
+        <li class="ms-3"><a class="nav-link" href="#">Top FAQ</a></li>
+        <li class="ms-3"><a class="nav-link" href="#">Legal Policies</a></li>
+        <li class="ms-3"><a class="nav-link" href="#">TERMS OF USE</a></li>
+      </ul>
+    </div>
+  </footer>
+</div>
   </body>
 
-  <RouterView />
+
 </template>
 
 <style scoped>
@@ -74,6 +120,9 @@ body{
     margin-bottom: 0;
     color: #ffffff;
     font-weight: 600;
+}
+.nav-link {
+  color: #ffffff;
 }
 </style>
 
