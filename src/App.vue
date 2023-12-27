@@ -96,7 +96,7 @@ import HelloWorld from './components/HelloWorld.vue'
       </ul>
     </div>
   </footer>
-</div>
+    </div>
   </body>
 
 
@@ -106,16 +106,7 @@ import HelloWorld from './components/HelloWorld.vue'
 body{
   font-family: 'Helvetica', 
 }
-.tu-login-left {
- 
-    width: 50%;
-    display: flex;
-    padding: 50px 30px;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #0A0F26;
-}
+
 .tu-login-left_title h2 {
     margin-bottom: 0;
     color: #ffffff;
